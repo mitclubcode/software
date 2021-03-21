@@ -1,1 +1,9 @@
-hi
+hi! there i am akash kumar................
+
+about this application ......
+
+ #requirements
+ 
+ 1) chatterbot library...
+ install by using ..
+ pip install chatterbot
