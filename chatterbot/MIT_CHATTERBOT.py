@@ -1,6 +1,18 @@
+
+'''
+@author.    : AKASH KUMAR
+@institute. : MIT Institute Moradabad India
+@branch.    : Computer Science & Engineering
+@work as.   : Software Devloper & Machine Learning Engineer
+@website.   : https://medium.com/@akashsaininasa
+@github.    : https://github.com/Akash671
+@LinkedIn.  : https://www.linkedin.com/in/akash-kumar-52563018a
+'''
+
+#--------------------------------------------
 import tkinter as tk
 from tkinter import*
-
+#--------------------------------------------
 
 root=tk.Tk()
 root.geometry("480x290")
@@ -11,7 +23,7 @@ label1.place(x = -120, y = -10)
 root.title("welcome in mit chat app")
 #Label(root,text="OPTION",width=15,bd=6,bg="violet",font=('calibre',10,'normal')).pack()
 #Label(root,text="Application Version 1.0.0",width=25,bd=4,bg="lightgreen",font =('calibre',10,'normal')).pack(side=BOTTOM)
-
+#------------------------------------------------
 B=StringVar()
 H=StringVar()
 
@@ -19,7 +31,7 @@ t1=Entry(root,text=H,width=25,bd=3,bg="cyan2",font = ('calibre',13,'normal'))
 t1.place(x=70,y=170,height=40)
 t2=Entry(root,text=B,width=25,bd=3,bg="cyan2",font = ('calibre',13,'normal'))
 t2.place(x=70,y=70,height=40)
-
+#---------------------------------------------------
 #user_input=H.get()
 def BOT():
  from chatterbot import ChatBot
@@ -63,6 +75,8 @@ def BOT():
  except (KeyboardInterrupt, EOFError, SystemExit):
         return "error"
 #user_input=H.get()
+
+#------------------------------------------------------------
 def WEB():
     import web
 Button(root,text="DOWNLOAD CODE",width=14,height=2,bd=3,bg="green",command=WEB).place(x=80,y=230)
@@ -71,7 +85,7 @@ Button(root,text="BOOT",width=15,height=2,bd=3,bg="violet").place(x=70,y=20)
 
 Button(root,text="send",width=8,height=2,bd=3,bg="green",font = ('calibre',8,'normal'),command=BOT).place(x=360,y=170)
 Button(root,text="send",width=8,height=2,bd=3,bg="blue",font = ('calibre',8,'normal'),command=BOT).place(x=360,y=70)
-
+#-------------------------------------------------------------
 
 def destroy():
     #conn.close()
@@ -79,3 +93,4 @@ def destroy():
 Button(root,text="EXIT",width=14,height=2,bd=3,bg="red",command=destroy).place(x=220,y=230)
 root.resizable(0,0)
 root.mainloop()
+#--------------------------------------------------------------
