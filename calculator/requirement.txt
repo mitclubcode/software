@@ -1,0 +1,5 @@
+steps:-
+1). install pydroid in your phone from google play store
+2). copy (file.py) type file and paste in your pydroid editor
+3). run by run button
+4). end.
