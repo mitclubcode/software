@@ -3,3 +3,5 @@ steps:-
 2). copy (file.py) type file and paste in your pydroid editor
 3). run by run button
 4). end.
+now after running you can see calculator view now you can use it.
+Thank you
