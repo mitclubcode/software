@@ -2,5 +2,5 @@
 
 
 
-![image](https://github.com/Akash671/ML-Project/blob/master/app/appImage/img1.png)
+![image](https://github.com/mitclubcode/software/blob/main/chatterbot/chatapp_image.png)
 <br>
